@@ -6,8 +6,11 @@ import random
 
 warnings.filterwarnings("ignore")
 
+# ✅ Configure Gemini API key
 api_key = "AIzaSyC1gLQLeywaERy3PrV-AAgZEVV-pjU1tE8"
+genai.configure(api_key=api_key)
 
+# Chatbot configuration
 generation_config = {
     "temperature": 0.1,
     "top_p": 0.85,
