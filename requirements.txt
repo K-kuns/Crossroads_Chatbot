@@ -1,0 +1,8 @@
+streamlit
+google-generativeai
+bs4
+requests
+streamlit_option_menu
+streamlit_extras
+langchain
+sentence-transformers
