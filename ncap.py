@@ -23,6 +23,7 @@ model = genai.GenerativeModel(
     generation_config=generation_config,
 )
 
+
 # System prompt for Crossroads
 SYSTEM_PROMPT = (
     "You are Crossroads, a professional and helpful traffic advisor specializing in the No Contact Apprehension Program (NCAP) in the Philippines. "
